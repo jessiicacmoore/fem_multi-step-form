@@ -11,6 +11,8 @@
       "@components/*": ["components/*"],
       "@app/*": ["app/*"],
     },
+    "types": ["vite/client"],
+    "typeRoots": ["node_modules/@types"],
 
     /* Bundler mode */
     "moduleResolution": "bundler",
